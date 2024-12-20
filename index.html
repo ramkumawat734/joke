@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+          body{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               background-color: rgb(174, 174, 184);
+               width: 100vw;
+               height: 100vh;
+          }
+
+          .jokeContainer{
+              width: 300px;
+              padding: 1rem;
+              border: 1px solid black;
+              background-color: white;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              border-radius: 1rem;
+
+          }
+          .jokeContainer img{
+            width: 50px;
+            height: 50px;
+          }
+          button{
+            width: 150px;
+            /* height: 30px; */
+            background-color:rgb(174, 174, 184);
+          }
+
+    </style>
+</head>
+    <body>
+           <div class="jokeContainer">
+              <img src="happy-face.png" alt="">
+              <h3 id="joke"></h3>
+              <button id="btn">Get joke</button>
+           </div>
+           <script src="index.js"></script>
+    </body>
+</html>
